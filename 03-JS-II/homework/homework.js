@@ -12,7 +12,7 @@ function mayoriaDeEdad(edad) {
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
 }
-  
+
 function conection(status) {
   //Recibimos un estado de conexión de un usuario representado por un valor numérico. 
   //Cuando el estado es igual a 1, el usuario está "Online"
@@ -73,6 +73,7 @@ function esEntero(numero) {
   // Tu código:
 }
 
+
 function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
   // Si "numero" es divisible entre 5, devuelve "buzz"
@@ -87,27 +88,27 @@ function operadoresLogicos(num1, num2, num3) {
   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
-  
-  if (num1 === 0 || num2 === 0 ||num3 === 0){
+
+  if (num1 === 0 || num2 === 0 || num3 === 0) {
     return "Error";
   }
-  if (num1 < 0 || num2 < 0 || num3 < 0){
+  if (num1 < 0 || num2 < 0 || num3 < 0) {
     respuesta = "Hay negativos";
     return respuesta;
   }
-  if (num1 > num2 && num1 > num3 && num1 > 0){
+  if (num1 > num2 && num1 > num3 && num1 > 0) {
     respuesta = "Número 1 es mayor y positivo";
     return respuesta;
-  }  
-  if (num3 > num1 && num3 > num2){
+  }
+  if (num3 > num1 && num3 > num2) {
     respuesta = num3 + 1
     return respuesta;
   }
   return false;
-  
+
 }
 
-operadoresLogicos(0,3,8)
+operadoresLogicos(0, 3, 8)
 
 function esPrimo(numero) {
   // Devuelve "true" si "numero" es primo
@@ -117,17 +118,17 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
 }
 
-function esVerdadero(valor){
+function esVerdadero(valor) {
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
 
 }
 
-function tieneTresDigitos(numero){
+function tieneTresDigitos(numero) {
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  
+
 }
 
 function doWhile(numero) {
