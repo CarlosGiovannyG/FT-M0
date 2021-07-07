@@ -4,6 +4,5 @@
 var tabla = [];
 for (let i = 0; i <= 10 ; i++) {
   tabla.push(6 * i);
-  return tabla
-  
-}
+  return tabla  
+};
